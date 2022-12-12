@@ -20,5 +20,6 @@
     },
     "peacock.color": "#4f2415",
     "typescript.tsdk": "node_modules\\typescript\\lib",
-    "typescript.enablePromptUseWorkspaceTsdk": true
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+    "editor.formatOnSave": true
 }
