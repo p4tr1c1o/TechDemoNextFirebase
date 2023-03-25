@@ -2,7 +2,7 @@ import React, { createContext } from 'react';
 import { CacheProvider } from '@emotion/react';
 import { ThemeProvider, CssBaseline } from '@mui/material';
 
-import createEmotionCache from "./createEmotionCache";
+import createEmotionCache from "../utils/createEmotionCache";
 import appTheme from "../styles/theme";
 import MenuLayout from "../components/layouts/MenuLayout";
 import { useRouter } from "next/router";

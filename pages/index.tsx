@@ -8,15 +8,14 @@ import React from 'react'
 import { useRouter } from "next/router";
 
 
-interface Props {
+interface ButtonProps {
     icono(props): JSX.Element,
     titulo: string,
     subtitulo: string
 }
 
-function TipoPedidoButton({ icono, titulo, subtitulo }: Props) {
+function TipoPedidoButton({ icono, titulo, subtitulo }: ButtonProps) {
     const router = useRouter()
-
 
     return (
         <Button fullWidth variant="contained" onClick={() => router.push("/menu/dashboard")}>
@@ -30,7 +29,6 @@ function TipoPedidoButton({ icono, titulo, subtitulo }: Props) {
 }
 
 function SeleccionTipoPedidoPage() {
-
 
     return (
         <Paper sx={{
